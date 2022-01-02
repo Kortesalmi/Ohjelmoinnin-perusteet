@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="firstname">First name
+                <input type="text" id="firstname" class="required">
+            </label>
+            <span class="errorMessage">Vaadittu kenttä</span>
+        </div>
+        <div>
+            <label for="lastname">Last name
+                <input type="text" class="required">
+            </label>
+            <span class="errorMessage">Vaadittu kenttä</span>
+        </div>
+        <div>
+            <label for="gender">Gender
+                <select name="" id="" class="required">
+                    <option value="">-- Select gender--</option>
+                    <option value="">Female</option>
+                    <option value="">Male</option>
+                    <option value="">Other</option>
+                    <option value="">Don't want to say</option>
+                </select>
+            </label>
+            <span class="errorMessage">Vaadittu kenttä</span>
+        </div>
+        <div>
+            <label for="">Accept conditions
+                <input type="checkbox" class="required">
+            </label>
+            <span class="errorMessage">Vaadittu kenttä</span>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Join mailing list</legend>
+                <input type="radio" name="mailingList" id="" class="required">Yes
+                <input type="radio" name="mailingList" id="" class="required">No
+            </fieldset>
+            <span class="errorMessage">Vaadittu kenttä</span>
+        </div>
+        <div>
+            <input type="submit" id="submitButton">
+            <input type="reset">
+        </div>
+    </form>
+    <script src="lomake.js"></script>
+</body>
+</html>

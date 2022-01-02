@@ -1,0 +1,10 @@
+div {
+    padding: 10px;
+}
+.red {
+    border: 1px solid red;
+}
+.errorMessage {
+    display: none;
+    color: red;
+}

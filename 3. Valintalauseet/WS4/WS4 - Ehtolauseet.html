@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)https://meijastiina.github.io/ohjelmoinnin_perusteet_javascript/ws4.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+    <title>WS4 - Ehtolauseet</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://meijastiina.github.io/ohjelmoinnin_perusteet_javascript/favicon.ico">
+	<link rel="stylesheet" href="./WS4 - Ehtolauseet_files/styles.css">
+</head>
+<body>
+    <header>
+        <h2><a href="https://meijastiina.github.io/">Ohjelmoinnin perusteet</a></h2>
+        <img src="./WS4 - Ehtolauseet_files/javascript.png" alt="JavaScript Logo">
+        <h1>WS4 - Ehtolauseet</h1>
+    </header>
+    <main>
+        <!-- Tehtävä 1. ensimmäinen ehtolause -->
+        <h2>1. Ensimmäinen ehtolause</h2>
+        <p>Luo muuttuja <span class="code">age</span> ja anna sille arvoksi 5. Kirjoita ehtolause, jossa testataan <span class="code">age</span>-muuttujan arvon perusteella onko käyttäjä täysi-ikäinen. Tulosta alla olevaan laatikkoon "Olet alaikäinen", jos muuttujan arvo on pienempi kuin 18.</p>
+        <div id="age" class="bordered"></div>
+        <hr>
+        <!-- Tehtävä 2. ensimmäisen ehtolauseen tarkastus -->
+        <h2>2. Ensimmäisen ehtolauseen tarkastus</h2>
+        <p>Muuta <span class="age">age</span>-muuttujan arvoksi 20 ja varmista, että ehtolauseesi toimii.</p>
+        <div id="age2" class="bordered"></div>
+        <hr>
+        <!-- Tehtävä 3. Ensimmäinen else-lause -->
+        <h2>3. Ensimmäinen else-lause</h2>
+        <p>Lisää ehtolauseeseesi else-haara, jolla tulostetaan "Olet täysi-ikäinen", jos <span class="code">age</span>-muuttujan perusteella käyttäjä on täysi-ikäinen.</p>
+        <div id="age3" class="bordered"></div>
+        <hr>
+        <!-- Tehtävä 4. Ensimmäinen else-if-lause -->
+        <h2>4. Ensimmäinen else-if-lause</h2>
+        <p>Lisää ehtolauseeseesi elseif-haara, jolla tulostetaan "Olet juuri saavuttanut täysi-ikäisyyden", jos <span class="code">age</span>-muuttujan perusteella käyttäjä on tasan 18.</p>
+        <div id="age4" class="bordered"></div>
+        <hr>
+        <!-- Tehtävä 5. Vuorokauden ajan mukainen tervehdys -->
+        <h2>5. Vuorokauden ajan mukainen tervehdys</h2>
+        <p>Kirjoita ehtolause, joka katsoo kellonajan perusteella tulostetaanko "Huomenta", "Päivää", "Iltaa" vai "Hyvää yötä".</p>
+        <p>Kellonajan saat esimerkiksi käyttämällä <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date" target="_blank">Date()</a>-konstruktoria ja <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getHours" target="_blank">getHours()</a>-metodia.</p>
+        <div id="greeting" class="bordered"></div>
+        <hr>
+        <!-- Tehtävä 6. Lomakkeen tarkastus -->
+        <h2>6. Lomakkeen tarkastus</h2>
+        <p>Kirjoita alla olevalle lomakkeelle yksinkertainen tarkastus. Kun käyttäjä painaa Lähetä-painiketta, tarkista, että kaikissa kentissä on tietoa. Jos kaikissa kentissä on tietoa, näytä alert-box, jossa on viesti "Lomake lähetetty onnistuneesti", jos ei näytä viesti "Lomakkeella virhe! Täytä kaikki kentät".</p>
+        <p>Huom! Miten estetään se, että lomaketta ei virhetilanteessa lähetetä?</p>
+        <form id="userForm" class="bordered">
+            <label for="firstname">Etunimi: </label><input type="text" id="firstname">
+            <label for="lastname">Sukunimi: </label><input type="text" id="lastname">
+            <label for="age">Ikä: </label><input type="number" id="ageInput">
+            <input type="submit">
+        </form>
+        <hr>
+        <!-- Sisältö päättyy-->
+    </main>
+	<footer>
+        <a href="https://meijastiina.github.io/ohjelmoinnin_perusteet_javascript/ws3_solution.html">&lt;&lt; Edellinen</a> || <a href="https://meijastiina.github.io/ohjelmoinnin_perusteet_javascript/ws5_solution.html">Seuraava &gt;&gt;</a>
+        <p>© Meija Lohiniva Oulu UAS</p>
+    </footer>
+    <script src="WS4.js"></script>
+
+</body></html>
